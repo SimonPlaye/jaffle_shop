@@ -4,11 +4,9 @@ jaffle_shop:
   target: dev
   outputs:
     dev:
-      type: postgres
-      host: postgres
-      user: postgres
-      password: postgres
-      port: 5432
-      dbname: postgres
-      schema: public
+      type: bigquery
+      method: service-account
+      project: heroic-passkey-401714
+      dataset: new_dataset
       threads: 1
+      keyfile: dbt-user-creds.json
