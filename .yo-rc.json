@@ -1,0 +1,16 @@
+{
+  "generator-sicarator": {
+    "promptValues": {
+      "authorName": "Simon Playe",
+      "authorEmail": "simon.playe@sicara.com",
+      "ci": ".circleci",
+      "includeApi": true,
+      "apiInfrastructure": null,
+      "includeDvc": false,
+      "includeStreamlit": false
+    },
+    "projectName": "jaffle_shop",
+    "projectSlug": "jaffleshop",
+    "projectDescription": "Play with DBT locally"
+  }
+}
